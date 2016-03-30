@@ -5,11 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--去潜-->
         <scene sceneID="c3f-Wm-daQ">
             <objects>
                 <navigationController id="xUi-rY-qKI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Xgi-1M-xRq"/>
+                    <tabBarItem key="tabBarItem" title="去潜" id="Xgi-1M-xRq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cah-no-Ey9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -60,11 +60,11 @@
             </objects>
             <point key="canvasLocation" x="-1697" y="-2093"/>
         </scene>
-        <!--Item-->
+        <!--日志-->
         <scene sceneID="jM8-Za-sKE">
             <objects>
                 <navigationController id="yOU-KO-IwN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="h9V-iE-krk"/>
+                    <tabBarItem key="tabBarItem" title="日志" id="h9V-iE-krk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DFY-hy-Hmh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -77,11 +77,11 @@
             </objects>
             <point key="canvasLocation" x="-2489" y="-2132"/>
         </scene>
-        <!--Item-->
+        <!--我的-->
         <scene sceneID="Xjm-SQ-Naz">
             <objects>
                 <navigationController id="HKA-1w-nqH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="qrr-mP-p8q"/>
+                    <tabBarItem key="tabBarItem" title="我的" id="qrr-mP-p8q"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yVD-fZ-Jah">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -94,11 +94,11 @@
             </objects>
             <point key="canvasLocation" x="-2447" y="352"/>
         </scene>
-        <!--Item-->
+        <!--精选-->
         <scene sceneID="PAv-us-MjC">
             <objects>
                 <navigationController id="jRl-ba-d7e" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="AOf-Ih-AkN"/>
+                    <tabBarItem key="tabBarItem" title="精选" id="AOf-Ih-AkN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gkm-vc-QnO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -168,11 +168,11 @@
             </objects>
             <point key="canvasLocation" x="-1657" y="251"/>
         </scene>
-        <!--Item-->
+        <!--潜伴-->
         <scene sceneID="ePf-QZ-Iug">
             <objects>
                 <navigationController id="uUE-0g-iJs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Uja-OD-laj"/>
+                    <tabBarItem key="tabBarItem" title="潜伴" id="Uja-OD-laj"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hvS-4y-MUX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
