@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157AF6F31CAB64DE00EDCA2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157AF6F21CAB64DE00EDCA2D /* main.m */; };
+		157AF6F61CAB64DE00EDCA2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157AF6F51CAB64DE00EDCA2D /* AppDelegate.m */; };
+		157AF6FC1CAB64DE00EDCA2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157AF6FA1CAB64DE00EDCA2D /* Main.storyboard */; };
+		157AF6FE1CAB64DE00EDCA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157AF6FD1CAB64DE00EDCA2D /* Assets.xcassets */; };
+		157AF7011CAB64DE00EDCA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157AF6FF1CAB64DE00EDCA2D /* LaunchScreen.storyboard */; };
+		157AF70C1CAB64DE00EDCA2D /* Diving_LogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 157AF70B1CAB64DE00EDCA2D /* Diving_LogTests.m */; };
+		157AF7171CAB64DF00EDCA2D /* Diving_LogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 157AF7161CAB64DF00EDCA2D /* Diving_LogUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		157AF7081CAB64DE00EDCA2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 157AF6E61CAB64DE00EDCA2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 157AF6ED1CAB64DE00EDCA2D;
+			remoteInfo = "Diving Log";
+		};
+		157AF7131CAB64DF00EDCA2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 157AF6E61CAB64DE00EDCA2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 157AF6ED1CAB64DE00EDCA2D;
+			remoteInfo = "Diving Log";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		157AF6EE1CAB64DE00EDCA2D /* Diving Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diving Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		157AF6F21CAB64DE00EDCA2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		157AF6F41CAB64DE00EDCA2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		157AF6F51CAB64DE00EDCA2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		157AF6FB1CAB64DE00EDCA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		157AF6FD1CAB64DE00EDCA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		157AF7001CAB64DE00EDCA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		157AF7021CAB64DE00EDCA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157AF7071CAB64DE00EDCA2D /* Diving LogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diving LogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		157AF70B1CAB64DE00EDCA2D /* Diving_LogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diving_LogTests.m; sourceTree = "<group>"; };
+		157AF70D1CAB64DE00EDCA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157AF7121CAB64DF00EDCA2D /* Diving LogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diving LogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		157AF7161CAB64DF00EDCA2D /* Diving_LogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diving_LogUITests.m; sourceTree = "<group>"; };
+		157AF7181CAB64DF00EDCA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		157AF6EB1CAB64DE00EDCA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AF7041CAB64DE00EDCA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AF70F1CAB64DF00EDCA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157AF6E51CAB64DE00EDCA2D = {
+			isa = PBXGroup;
+			children = (
+				157AF6F01CAB64DE00EDCA2D /* Diving Log */,
+				157AF70A1CAB64DE00EDCA2D /* Diving LogTests */,
+				157AF7151CAB64DF00EDCA2D /* Diving LogUITests */,
+				157AF6EF1CAB64DE00EDCA2D /* Products */,
+				157AF72B1CAB6DFA00EDCA2D /* other */,
+			);
+			sourceTree = "<group>";
+		};
+		157AF6EF1CAB64DE00EDCA2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				157AF6EE1CAB64DE00EDCA2D /* Diving Log.app */,
+				157AF7071CAB64DE00EDCA2D /* Diving LogTests.xctest */,
+				157AF7121CAB64DF00EDCA2D /* Diving LogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		157AF6F01CAB64DE00EDCA2D /* Diving Log */ = {
+			isa = PBXGroup;
+			children = (
+				157AF7241CAB6D1E00EDCA2D /* calsses */,
+				157AF6FA1CAB64DE00EDCA2D /* Main.storyboard */,
+				157AF6FD1CAB64DE00EDCA2D /* Assets.xcassets */,
+				157AF6F11CAB64DE00EDCA2D /* Supporting Files */,
+			);
+			path = "Diving Log";
+			sourceTree = "<group>";
+		};
+		157AF6F11CAB64DE00EDCA2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				157AF6F21CAB64DE00EDCA2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		157AF70A1CAB64DE00EDCA2D /* Diving LogTests */ = {
+			isa = PBXGroup;
+			children = (
+				157AF70B1CAB64DE00EDCA2D /* Diving_LogTests.m */,
+				157AF70D1CAB64DE00EDCA2D /* Info.plist */,
+			);
+			path = "Diving LogTests";
+			sourceTree = "<group>";
+		};
+		157AF7151CAB64DF00EDCA2D /* Diving LogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				157AF7161CAB64DF00EDCA2D /* Diving_LogUITests.m */,
+				157AF7181CAB64DF00EDCA2D /* Info.plist */,
+			);
+			path = "Diving LogUITests";
+			sourceTree = "<group>";
+		};
+		157AF7241CAB6D1E00EDCA2D /* calsses */ = {
+			isa = PBXGroup;
+			children = (
+				157AF72A1CAB6DA900EDCA2D /* 我的页面 */,
+				157AF7291CAB6D9800EDCA2D /* 潜伴页面 */,
+				157AF7281CAB6D8B00EDCA2D /* 精选页面 */,
+				157AF7271CAB6D7200EDCA2D /* 去潜水页面 */,
+				157AF7261CAB6D5800EDCA2D /* 日志页面 */,
+				157AF7251CAB6D4700EDCA2D /* 主框架 */,
+			);
+			name = calsses;
+			sourceTree = "<group>";
+		};
+		157AF7251CAB6D4700EDCA2D /* 主框架 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "主框架";
+			sourceTree = "<group>";
+		};
+		157AF7261CAB6D5800EDCA2D /* 日志页面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "日志页面";
+			sourceTree = "<group>";
+		};
+		157AF7271CAB6D7200EDCA2D /* 去潜水页面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "去潜水页面";
+			sourceTree = "<group>";
+		};
+		157AF7281CAB6D8B00EDCA2D /* 精选页面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "精选页面";
+			sourceTree = "<group>";
+		};
+		157AF7291CAB6D9800EDCA2D /* 潜伴页面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "潜伴页面";
+			sourceTree = "<group>";
+		};
+		157AF72A1CAB6DA900EDCA2D /* 我的页面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "我的页面";
+			sourceTree = "<group>";
+		};
+		157AF72B1CAB6DFA00EDCA2D /* other */ = {
+			isa = PBXGroup;
+			children = (
+				157AF6F41CAB64DE00EDCA2D /* AppDelegate.h */,
+				157AF6F51CAB64DE00EDCA2D /* AppDelegate.m */,
+				157AF6FF1CAB64DE00EDCA2D /* LaunchScreen.storyboard */,
+				157AF7021CAB64DE00EDCA2D /* Info.plist */,
+			);
+			name = other;
+			path = "Diving Log";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		157AF6ED1CAB64DE00EDCA2D /* Diving Log */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157AF71B1CAB64DF00EDCA2D /* Build configuration list for PBXNativeTarget "Diving Log" */;
+			buildPhases = (
+				157AF6EA1CAB64DE00EDCA2D /* Sources */,
+				157AF6EB1CAB64DE00EDCA2D /* Frameworks */,
+				157AF6EC1CAB64DE00EDCA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diving Log";
+			productName = "Diving Log";
+			productReference = 157AF6EE1CAB64DE00EDCA2D /* Diving Log.app */;
+			productType = "com.apple.product-type.application";
+		};
+		157AF7061CAB64DE00EDCA2D /* Diving LogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157AF71E1CAB64DF00EDCA2D /* Build configuration list for PBXNativeTarget "Diving LogTests" */;
+			buildPhases = (
+				157AF7031CAB64DE00EDCA2D /* Sources */,
+				157AF7041CAB64DE00EDCA2D /* Frameworks */,
+				157AF7051CAB64DE00EDCA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				157AF7091CAB64DE00EDCA2D /* PBXTargetDependency */,
+			);
+			name = "Diving LogTests";
+			productName = "Diving LogTests";
+			productReference = 157AF7071CAB64DE00EDCA2D /* Diving LogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		157AF7111CAB64DF00EDCA2D /* Diving LogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157AF7211CAB64DF00EDCA2D /* Build configuration list for PBXNativeTarget "Diving LogUITests" */;
+			buildPhases = (
+				157AF70E1CAB64DF00EDCA2D /* Sources */,
+				157AF70F1CAB64DF00EDCA2D /* Frameworks */,
+				157AF7101CAB64DF00EDCA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				157AF7141CAB64DF00EDCA2D /* PBXTargetDependency */,
+			);
+			name = "Diving LogUITests";
+			productName = "Diving LogUITests";
+			productReference = 157AF7121CAB64DF00EDCA2D /* Diving LogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		157AF6E61CAB64DE00EDCA2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chenxi;
+				TargetAttributes = {
+					157AF6ED1CAB64DE00EDCA2D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					157AF7061CAB64DE00EDCA2D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 157AF6ED1CAB64DE00EDCA2D;
+					};
+					157AF7111CAB64DF00EDCA2D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 157AF6ED1CAB64DE00EDCA2D;
+					};
+				};
+			};
+			buildConfigurationList = 157AF6E91CAB64DE00EDCA2D /* Build configuration list for PBXProject "Diving Log" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 157AF6E51CAB64DE00EDCA2D;
+			productRefGroup = 157AF6EF1CAB64DE00EDCA2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				157AF6ED1CAB64DE00EDCA2D /* Diving Log */,
+				157AF7061CAB64DE00EDCA2D /* Diving LogTests */,
+				157AF7111CAB64DF00EDCA2D /* Diving LogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		157AF6EC1CAB64DE00EDCA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157AF7011CAB64DE00EDCA2D /* LaunchScreen.storyboard in Resources */,
+				157AF6FE1CAB64DE00EDCA2D /* Assets.xcassets in Resources */,
+				157AF6FC1CAB64DE00EDCA2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AF7051CAB64DE00EDCA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AF7101CAB64DF00EDCA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		157AF6EA1CAB64DE00EDCA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157AF6F61CAB64DE00EDCA2D /* AppDelegate.m in Sources */,
+				157AF6F31CAB64DE00EDCA2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AF7031CAB64DE00EDCA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157AF70C1CAB64DE00EDCA2D /* Diving_LogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157AF70E1CAB64DF00EDCA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157AF7171CAB64DF00EDCA2D /* Diving_LogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		157AF7091CAB64DE00EDCA2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 157AF6ED1CAB64DE00EDCA2D /* Diving Log */;
+			targetProxy = 157AF7081CAB64DE00EDCA2D /* PBXContainerItemProxy */;
+		};
+		157AF7141CAB64DF00EDCA2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 157AF6ED1CAB64DE00EDCA2D /* Diving Log */;
+			targetProxy = 157AF7131CAB64DF00EDCA2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		157AF6FA1CAB64DE00EDCA2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157AF6FB1CAB64DE00EDCA2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		157AF6FF1CAB64DE00EDCA2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157AF7001CAB64DE00EDCA2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		157AF7191CAB64DF00EDCA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		157AF71A1CAB64DF00EDCA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		157AF71C1CAB64DF00EDCA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Diving Log/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenxi.Diving-Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		157AF71D1CAB64DF00EDCA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Diving Log/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenxi.Diving-Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		157AF71F1CAB64DF00EDCA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Diving LogTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenxi.Diving-LogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diving Log.app/Diving Log";
+			};
+			name = Debug;
+		};
+		157AF7201CAB64DF00EDCA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Diving LogTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenxi.Diving-LogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diving Log.app/Diving Log";
+			};
+			name = Release;
+		};
+		157AF7221CAB64DF00EDCA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Diving LogUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenxi.Diving-LogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Diving Log";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		157AF7231CAB64DF00EDCA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Diving LogUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenxi.Diving-LogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Diving Log";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		157AF6E91CAB64DE00EDCA2D /* Build configuration list for PBXProject "Diving Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157AF7191CAB64DF00EDCA2D /* Debug */,
+				157AF71A1CAB64DF00EDCA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157AF71B1CAB64DF00EDCA2D /* Build configuration list for PBXNativeTarget "Diving Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157AF71C1CAB64DF00EDCA2D /* Debug */,
+				157AF71D1CAB64DF00EDCA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		157AF71E1CAB64DF00EDCA2D /* Build configuration list for PBXNativeTarget "Diving LogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157AF71F1CAB64DF00EDCA2D /* Debug */,
+				157AF7201CAB64DF00EDCA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		157AF7211CAB64DF00EDCA2D /* Build configuration list for PBXNativeTarget "Diving LogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157AF7221CAB64DF00EDCA2D /* Debug */,
+				157AF7231CAB64DF00EDCA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 157AF6E61CAB64DE00EDCA2D /* Project object */;
+}
