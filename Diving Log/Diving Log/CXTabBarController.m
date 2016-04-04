@@ -29,7 +29,25 @@
     
     //布局子控件
     [self setUpChildVc];
+    
+    //处理tabBar
+    [self setUpTabBar];
+
 }
+
+
+/**
+ *  处理tabBar
+ */
+
+-(void)setUpTabBar{
+    
+    
+    [self setValue:[[CXTabBar alloc ]init] forKey:@"tabBar"];
+    
+    
+}
+
 
 
 /**
