@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1565BA7A1CB2363900A187C1 /* CXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565BA791CB2363900A187C1 /* CXTabBarController.m */; };
+		1565BA7D1CB2373E00A187C1 /* CXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565BA7C1CB2373E00A187C1 /* CXTabBar.m */; };
+		1565BA801CB2379400A187C1 /* CXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565BA7F1CB2379400A187C1 /* CXMeViewController.m */; };
+		1565BA831CB237BB00A187C1 /* CXFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565BA821CB237BB00A187C1 /* CXFriendViewController.m */; };
+		1565BA861CB237DD00A187C1 /* CXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565BA851CB237DD00A187C1 /* CXEssenceViewController.m */; };
+		1565BA891CB237FA00A187C1 /* CXGoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565BA881CB237FA00A187C1 /* CXGoViewController.m */; };
+		1565BA8C1CB2380F00A187C1 /* CXLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565BA8B1CB2380F00A187C1 /* CXLogViewController.m */; };
 		157AF6F31CAB64DE00EDCA2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157AF6F21CAB64DE00EDCA2D /* main.m */; };
 		157AF6F61CAB64DE00EDCA2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157AF6F51CAB64DE00EDCA2D /* AppDelegate.m */; };
 		157AF6FC1CAB64DE00EDCA2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157AF6FA1CAB64DE00EDCA2D /* Main.storyboard */; };
@@ -34,6 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1565BA781CB2363900A187C1 /* CXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBarController.h; sourceTree = "<group>"; };
+		1565BA791CB2363900A187C1 /* CXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBarController.m; sourceTree = "<group>"; };
+		1565BA7B1CB2373E00A187C1 /* CXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBar.h; sourceTree = "<group>"; };
+		1565BA7C1CB2373E00A187C1 /* CXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBar.m; sourceTree = "<group>"; };
+		1565BA7E1CB2379400A187C1 /* CXMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMeViewController.h; sourceTree = "<group>"; };
+		1565BA7F1CB2379400A187C1 /* CXMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMeViewController.m; sourceTree = "<group>"; };
+		1565BA811CB237BB00A187C1 /* CXFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXFriendViewController.h; sourceTree = "<group>"; };
+		1565BA821CB237BB00A187C1 /* CXFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXFriendViewController.m; sourceTree = "<group>"; };
+		1565BA841CB237DD00A187C1 /* CXEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXEssenceViewController.h; sourceTree = "<group>"; };
+		1565BA851CB237DD00A187C1 /* CXEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXEssenceViewController.m; sourceTree = "<group>"; };
+		1565BA871CB237FA00A187C1 /* CXGoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXGoViewController.h; sourceTree = "<group>"; };
+		1565BA881CB237FA00A187C1 /* CXGoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXGoViewController.m; sourceTree = "<group>"; };
+		1565BA8A1CB2380F00A187C1 /* CXLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLogViewController.h; sourceTree = "<group>"; };
+		1565BA8B1CB2380F00A187C1 /* CXLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLogViewController.m; sourceTree = "<group>"; };
 		157AF6EE1CAB64DE00EDCA2D /* Diving Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diving Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		157AF6F21CAB64DE00EDCA2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		157AF6F41CAB64DE00EDCA2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +96,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1565BA761CB234FE00A187C1 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				157AF6F41CAB64DE00EDCA2D /* AppDelegate.h */,
+				157AF6F51CAB64DE00EDCA2D /* AppDelegate.m */,
+				157AF7251CAB6D4700EDCA2D /* controller */,
+				1565BA771CB235BE00A187C1 /* view  */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		1565BA771CB235BE00A187C1 /* view  */ = {
+			isa = PBXGroup;
+			children = (
+				1565BA7B1CB2373E00A187C1 /* CXTabBar.h */,
+				1565BA7C1CB2373E00A187C1 /* CXTabBar.m */,
+			);
+			name = "view ";
+			sourceTree = "<group>";
+		};
 		157AF6E51CAB64DE00EDCA2D = {
 			isa = PBXGroup;
 			children = (
@@ -82,7 +123,6 @@
 				157AF70A1CAB64DE00EDCA2D /* Diving LogTests */,
 				157AF7151CAB64DF00EDCA2D /* Diving LogUITests */,
 				157AF6EF1CAB64DE00EDCA2D /* Products */,
-				157AF72B1CAB6DFA00EDCA2D /* other */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +139,7 @@
 		157AF6F01CAB64DE00EDCA2D /* Diving Log */ = {
 			isa = PBXGroup;
 			children = (
-				157AF7241CAB6D1E00EDCA2D /* calsses */,
-				157AF6FA1CAB64DE00EDCA2D /* Main.storyboard */,
-				157AF6FD1CAB64DE00EDCA2D /* Assets.xcassets */,
+				157AF7241CAB6D1E00EDCA2D /* calss */,
 				157AF6F11CAB64DE00EDCA2D /* Supporting Files */,
 			);
 			path = "Diving Log";
@@ -110,6 +148,10 @@
 		157AF6F11CAB64DE00EDCA2D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				157AF6FD1CAB64DE00EDCA2D /* Assets.xcassets */,
+				157AF6FA1CAB64DE00EDCA2D /* Main.storyboard */,
+				157AF6FF1CAB64DE00EDCA2D /* LaunchScreen.storyboard */,
+				157AF7021CAB64DE00EDCA2D /* Info.plist */,
 				157AF6F21CAB64DE00EDCA2D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -133,29 +175,33 @@
 			path = "Diving LogUITests";
 			sourceTree = "<group>";
 		};
-		157AF7241CAB6D1E00EDCA2D /* calsses */ = {
+		157AF7241CAB6D1E00EDCA2D /* calss */ = {
 			isa = PBXGroup;
 			children = (
+				157AF72B1CAB6DFA00EDCA2D /* other */,
 				157AF72A1CAB6DA900EDCA2D /* 我的页面 */,
 				157AF7291CAB6D9800EDCA2D /* 潜伴页面 */,
 				157AF7281CAB6D8B00EDCA2D /* 精选页面 */,
 				157AF7271CAB6D7200EDCA2D /* 去潜水页面 */,
 				157AF7261CAB6D5800EDCA2D /* 日志页面 */,
-				157AF7251CAB6D4700EDCA2D /* 主框架 */,
 			);
-			name = calsses;
+			name = calss;
 			sourceTree = "<group>";
 		};
-		157AF7251CAB6D4700EDCA2D /* 主框架 */ = {
+		157AF7251CAB6D4700EDCA2D /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				1565BA781CB2363900A187C1 /* CXTabBarController.h */,
+				1565BA791CB2363900A187C1 /* CXTabBarController.m */,
 			);
-			name = "主框架";
+			name = controller;
 			sourceTree = "<group>";
 		};
 		157AF7261CAB6D5800EDCA2D /* 日志页面 */ = {
 			isa = PBXGroup;
 			children = (
+				1565BA8A1CB2380F00A187C1 /* CXLogViewController.h */,
+				1565BA8B1CB2380F00A187C1 /* CXLogViewController.m */,
 			);
 			name = "日志页面";
 			sourceTree = "<group>";
@@ -163,6 +209,8 @@
 		157AF7271CAB6D7200EDCA2D /* 去潜水页面 */ = {
 			isa = PBXGroup;
 			children = (
+				1565BA871CB237FA00A187C1 /* CXGoViewController.h */,
+				1565BA881CB237FA00A187C1 /* CXGoViewController.m */,
 			);
 			name = "去潜水页面";
 			sourceTree = "<group>";
@@ -170,6 +218,8 @@
 		157AF7281CAB6D8B00EDCA2D /* 精选页面 */ = {
 			isa = PBXGroup;
 			children = (
+				1565BA841CB237DD00A187C1 /* CXEssenceViewController.h */,
+				1565BA851CB237DD00A187C1 /* CXEssenceViewController.m */,
 			);
 			name = "精选页面";
 			sourceTree = "<group>";
@@ -177,6 +227,8 @@
 		157AF7291CAB6D9800EDCA2D /* 潜伴页面 */ = {
 			isa = PBXGroup;
 			children = (
+				1565BA811CB237BB00A187C1 /* CXFriendViewController.h */,
+				1565BA821CB237BB00A187C1 /* CXFriendViewController.m */,
 			);
 			name = "潜伴页面";
 			sourceTree = "<group>";
@@ -184,6 +236,8 @@
 		157AF72A1CAB6DA900EDCA2D /* 我的页面 */ = {
 			isa = PBXGroup;
 			children = (
+				1565BA7E1CB2379400A187C1 /* CXMeViewController.h */,
+				1565BA7F1CB2379400A187C1 /* CXMeViewController.m */,
 			);
 			name = "我的页面";
 			sourceTree = "<group>";
@@ -191,13 +245,9 @@
 		157AF72B1CAB6DFA00EDCA2D /* other */ = {
 			isa = PBXGroup;
 			children = (
-				157AF6F41CAB64DE00EDCA2D /* AppDelegate.h */,
-				157AF6F51CAB64DE00EDCA2D /* AppDelegate.m */,
-				157AF6FF1CAB64DE00EDCA2D /* LaunchScreen.storyboard */,
-				157AF7021CAB64DE00EDCA2D /* Info.plist */,
+				1565BA761CB234FE00A187C1 /* category */,
 			);
 			name = other;
-			path = "Diving Log";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +312,7 @@
 		157AF6E61CAB64DE00EDCA2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CX;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chenxi;
 				TargetAttributes = {
@@ -330,8 +381,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1565BA7D1CB2373E00A187C1 /* CXTabBar.m in Sources */,
+				1565BA801CB2379400A187C1 /* CXMeViewController.m in Sources */,
 				157AF6F61CAB64DE00EDCA2D /* AppDelegate.m in Sources */,
 				157AF6F31CAB64DE00EDCA2D /* main.m in Sources */,
+				1565BA861CB237DD00A187C1 /* CXEssenceViewController.m in Sources */,
+				1565BA7A1CB2363900A187C1 /* CXTabBarController.m in Sources */,
+				1565BA831CB237BB00A187C1 /* CXFriendViewController.m in Sources */,
+				1565BA8C1CB2380F00A187C1 /* CXLogViewController.m in Sources */,
+				1565BA891CB237FA00A187C1 /* CXGoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +615,7 @@
 				157AF71D1CAB64DF00EDCA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		157AF71E1CAB64DF00EDCA2D /* Build configuration list for PBXNativeTarget "Diving LogTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +624,7 @@
 				157AF7201CAB64DF00EDCA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		157AF7211CAB64DF00EDCA2D /* Build configuration list for PBXNativeTarget "Diving LogUITests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +633,7 @@
 				157AF7231CAB64DF00EDCA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
